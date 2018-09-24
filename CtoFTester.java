@@ -10,6 +10,10 @@ public class CtoFTester{
 		System.out.println(inp);}
 
 
+	public static String[] printString(){
+	//add subsystem to handle string based io
+	}
+
 	public static void main(String[] args){
 		printNum(ctof(0));
 		printNum(ftoc(212));
